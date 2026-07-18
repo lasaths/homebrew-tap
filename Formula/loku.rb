@@ -1,10 +1,10 @@
 class Loku < Formula
   desc "Loku — minimal desktop image upscaler"
   homepage "https://github.com/lasaths/upscale"
-  version "0.1.2"
+  version "0.1.3"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/lasaths/upscale/releases/download/v0.1.2/upscale-ui-aarch64-apple-darwin.tar.xz"
-    sha256 "986096e87350b5ea9eb753dd1f811ad57662800b46e64f647a26c6d9f79b27d3"
+    url "https://github.com/lasaths/upscale/releases/download/v0.1.3/upscale-ui-aarch64-apple-darwin.tar.xz"
+    sha256 "da5bf89830499fd9a94ca44d5d316ba50bcfa22462579b734b177b6b11f0bc10"
   end
   license "MIT"
 
